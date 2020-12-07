@@ -1,1 +1,1 @@
-# sps_game
+# rps_game
