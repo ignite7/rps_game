@@ -1,0 +1,96 @@
+/* Main options */
+.main__options {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+.main__options-rock {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+}
+
+.main__options-paper {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+}
+
+.main__options-scissor {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+}
+
+.main__options button {
+  border: none;
+  background-color: transparent;
+  justify-content: center;
+  padding: 1rem;
+  outline: none;
+  transition: 1s;
+}
+
+.main__options button:hover {
+  cursor: pointer;
+  color: var(--third-color);
+  transform: scale(1.1);
+}
+
+.main__options button:hover .main__options-icon {
+  cursor: pointer;
+  color: var(--third-color);
+  opacity: 0.5;
+}
+
+.main__options h2 {
+  font-size: 2rem;
+  color: var(--secudary-color);
+}
+
+.main__options-icon {
+  font-size: 10rem;
+  color: var(--third-color);
+}
+
+/* Main form */
+.main__form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.main__form-label {
+  display: flex;
+  justify-content: center;
+  color: var(--secudary-color);
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 0.5rem;
+}
+
+.main__form-input {
+  display: flex;
+  flex-direction: column;
+  border: var(--third-color) 0.2rem solid;
+  border-radius: 0.5rem;
+  background-color: transparent;
+  color: var(--secudary-color);
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.main__form-warning {
+  display: flex;
+  color: var(--warning-color);
+  justify-content: center;
+  font-size: 1.3rem;
+  margin: 0.5rem;
+  font-weight: bold;
+}

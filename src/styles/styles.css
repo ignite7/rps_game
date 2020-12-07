@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  --background-color: #1d3557;
+  --primary-color: #457b9d;
+  --secudary-color: #a8dadc;
+  --third-color: #cdeae5;
+  --warning-color: #e63946;
+  --font-color: #f1faee;
+}
+
+body {
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Quicksand", sans-serif;
+  color: var(--font-color);
+  background-color: var(--background-color);
+}

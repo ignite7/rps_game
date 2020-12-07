@@ -1,0 +1,64 @@
+@media (min-width: 600px) {
+  body {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .header h1 {
+    font-size: 4rem;
+  }
+
+  .main__options h2,
+  .main__result h2 {
+    font-size: 3rem;
+  }
+
+  .main__result h1 {
+    font-size: 3.5rem;
+  }
+
+  .main__result-loading h1 {
+    font-size: 3.5rem;
+  }
+
+  .main__result-loading-icon {
+    font-size: 3.2rem;
+  }
+
+  .main__options-icon {
+    font-size: 15rem;
+  }
+
+  .main__result-played-icon {
+    font-size: 15rem;
+  }
+
+  .main__form-label {
+    font-size: 2.5rem;
+  }
+
+  .main__form-input {
+    font-size: 2rem;
+  }
+
+  .main__form-warning {
+    font-size: 1.4rem;
+  }
+
+  .footer__text {
+    font-size: 1.4rem;
+  }
+
+  .main__result-icon {
+    font-size: 10rem;
+  }
+
+  .main__result-try h1 {
+    font-size: 3rem;
+  }
+
+  .main__result-try-icon {
+    font-size: 6rem;
+  }
+}

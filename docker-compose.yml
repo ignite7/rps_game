@@ -1,0 +1,22 @@
+version: "3"
+
+services:
+  web:
+    container_name: web
+    build:
+      context: .
+      dockerfile: Dockerfile
+    networks:
+      - network
+    working_dir: /usr/src/sps_game
+    entrypoint: npm start
+    ports:
+      - "3000:3000"
+    expose:
+      - "3000"
+    volumes:
+      - .:/usr/src/sps_game
+
+networks:
+  network:
+    driver: bridge

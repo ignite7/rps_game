@@ -1,0 +1,21 @@
+/* Footer */
+.footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+}
+
+.footer__text {
+  color: var(--secudary-color);
+  font-size: 1.3rem;
+}
+
+.footer__link {
+  color: var(--secudary-color);
+  text-decoration: none;
+}
+
+.footer__link:hover {
+  opacity: 0.5;
+  color: var(--third-color);
+}
