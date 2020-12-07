@@ -1,5 +1,5 @@
 // React
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
 
 // Components
 import Layout from "./components/Layout";
@@ -11,7 +11,8 @@ export default function Routes() {
     <BrowserRouter>
       <Layout>
         <Switch>
-          <Route exact path="/" component={Home} />
+          <Route exact path="/rps_game" component={Home} />
+          <Redirect from="/" to="/rps_game" />
         </Switch>
       </Layout>
     </BrowserRouter>
