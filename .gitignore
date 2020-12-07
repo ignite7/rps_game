@@ -3,6 +3,9 @@
 /.pnp
 .pnp.js
 
+# build
+/build
+
 # Source
 /src/*.d.ts
 
